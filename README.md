@@ -1,30 +1,13 @@
-# Container 4.0
- This repository is for the purpose of ESS Project 2021, VJTI.
-
-
-<!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-
-  <h3 align="center">Container 4.0</h3>
-
-  <p align="center">
+  <h1 align="center">Container 4.0</h1>
+  <p align="center"> <i>
     Smartify your kitchen!
+    </i>
     <br />
     <br />
-    <br />
-<!--   add youtube video link -->
-<!--     <a href="https://youtu.be/">View Demo</a> -->
-    ·
   </p>
 </p>
 
@@ -37,7 +20,12 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Built With</a>
+        <ul>
+        <li><a href="#built-with">Hardware</a>
+        <li><a href="#built-with">Software</a>
+        </ul>
+        </li>
       </ul>
     </li>
     <li><a href="#key-features">Key Features</a></li>
@@ -48,37 +36,51 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 ### Built With
+####  Hardware 
 
-* [Flutter](https://api.flutter.dev/)
+<li>Raspberry Pi model 2B+<li>
+HX711<li>
+DHT-11 Temperature and humidity sensor<li>
+Load cell (6 kg)<li>
+MQ3 Alcohol Ethanol Sensor
+
+#### Software
+
+<li>Flutter
+
+## Key Features
+<li>Monitor quantity of food<li>
+Monitor quality of food<li>
+Food community support<li>
+Fridge door open indication<li>
+Auto-order
+
+
 
 <!-- USAGE EXAMPLES -->
 ## Screenshots
 
 ### App Screenshots
 
-<!--<p align="center">
-  <img src="assets/front.PNG" width="250" height="500" title="front screen">
-  <img src="assets/upload.PNG" width="250" height="500" alt="upload screen">
-</p>
-<!--
 <p align="center">
- <img src="assets/crop.PNG" width="250" height="500" alt="cropping screen">
-  <img src="assets/output.PNG" width="250" height="500" alt="output screen">
+  <img src="repo_assets/kitchen_main.jpeg" width="250" height="500" title="Kitchen Inventory Screen">&nbsp; &nbsp; &nbsp; &nbsp; 
+  <img src="repo_assets/kitchen_description.jpeg" width="250" height="500" alt="Container Description Screen">
 </p>
--->
-
+&nbsp; &nbsp; 
+<p align="center">
+ <img src="repo_assets/foodcommunity_main.jpeg" width="250" height="500" alt="cropping screen">&nbsp; &nbsp; &nbsp; &nbsp; 
+  <img src="repo_assets/foodcommunity_addPost.jpeg" width="250" height="500" alt="output screen">
+</p>
 
 <!-- CONTRIBUTORS -->
 ## Contributors
 :smile:
 1) [Twisha Shah](https://github.com/high-functioning-sociopath)
 2) [Antara Borkar](https://github.com/high-functioning-sociopath)
-3) [Ketaki Mulye](https://github.com/high-functioning-sociopath)
+3) [Ketaki Mulye](https://github.com/ketaki122)
 4) [Dipti Kawanpure](https://github.com/high-functioning-sociopath)
 
 
@@ -93,3 +95,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
+
+
+   
