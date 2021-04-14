@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h1 align="center">Container 4.0</h1>
+  <h1 align="center">FreshFill</h1>
   <p align="center"> <i>
     Smartify your kitchen!
     </i>
