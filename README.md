@@ -61,6 +61,7 @@ Auto-order
 
 
 
+
 <!-- USAGE EXAMPLES -->
 ## Screenshots
 
@@ -95,6 +96,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
 
 
