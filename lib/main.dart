@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
@@ -22,6 +21,7 @@ class StartApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+
       home: SplashScreenPage(),
       debugShowCheckedModeBanner: false,
     );
@@ -37,7 +37,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
 
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 5),
+    Timer(Duration(seconds: 8),
             ()=>Navigator.pushReplacement(context,
             MaterialPageRoute(builder:
                 (context) => MyApp()
@@ -57,11 +57,11 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
 
-              Text("Container 4.0", style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),),
+              Text("FreshFill", style: TextStyle(fontSize: 70, fontWeight: FontWeight.bold,fontFamily: "Amatic SC"),),
               Padding(
-                padding:EdgeInsets.only(top:20),
+                padding:EdgeInsets.only(top:5),
                 child:Lottie.network(
-                  'https://assets1.lottiefiles.com/private_files/lf30_P3RxuC.json',
+                  'https://assets3.lottiefiles.com/packages/lf20_i8mIVV.json',
                   height: MediaQuery.of(context).size.height * 0.27,
                   repeat: true,
                   reverse: true,
@@ -89,6 +89,9 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       theme: new ThemeData(
+
+        primaryColor: Color(0xFF27AE60),
+        accentColor: Color(0xFFF2C94C),
         scaffoldBackgroundColor: AppColor.PRIMARY_WHITE,
       ),
       // theme: new ThemeData(

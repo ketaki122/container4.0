@@ -115,7 +115,7 @@ class _KitchenInventoryState extends State<KitchenInventory> {
 
      if(widget_kitCon.quantity <=  widget_kitCon.threshold){
        if(autoOrder == true){
-         String message = "Need to stock!";
+         String message = "Order:"+food_type+"-"+widget_kitCon.refill_quantity.toString()+"kg,deliver to Antara" ;
          // String recipents = "xxxxxxxxxx";
          _sendSMS(message, widget_kitCon.contact, widget_kitCon.food_type);
          print("Sending SMS to:"+ widget_kitCon.contact);
@@ -248,10 +248,8 @@ class _KitchenInventoryState extends State<KitchenInventory> {
             content: Text(msg),
             actions: <Widget>[
               RaisedButton(
-                child: Text(
-                  'Ok',
-                  style: TextStyle(color: Colors.black, fontFamily: 'Raleway',),
-                ),
+                color: AppColor.PRIMARY_ORANGE,
+                child: Text('Ok', style: TextStyle(fontSize: MediaQuery.of(context).size.width * 0.068, fontFamily: "Raleway"),),
                 onPressed: () => Navigator.of(context).pop(),
               )
             ],

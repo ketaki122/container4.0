@@ -51,7 +51,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
       body: Container(
                 height:  MediaQuery.of(context).size.height * 0.87,
                 width: MediaQuery.of(context).size.width,
-                padding: EdgeInsets.only(top:25, left:10, right:10),
+                padding: EdgeInsets.only(top:MediaQuery.of(context).size.height * 0.025, left:10, right:10),
                 child: Card(
 
                   shadowColor: AppColor.PRIMARY_GREY,
@@ -107,7 +107,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                 style: TextStyle(
                                   color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
                                   fontWeight: FontWeight.w600,
-                                  fontSize: MediaQuery.of(context).size.width * 0.068,
+                                  fontSize: MediaQuery.of(context).size.width * 0.062,
                                 ),)
                           ),
                           Padding(
@@ -116,7 +116,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                 style: TextStyle(
                                   color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
                                   fontWeight: FontWeight.bold,
-                                  fontSize: MediaQuery.of(context).size.width * 0.071,
+                                  fontSize: MediaQuery.of(context).size.width * 0.066,
                                 ),)
                           ),
                         ],
@@ -130,7 +130,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                 style: TextStyle(
                                 color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
                                 fontWeight: FontWeight.bold,
-                                fontSize: MediaQuery.of(context).size.width * 0.068,
+                                fontSize: MediaQuery.of(context).size.width * 0.062,
                               ),)
                           ),
                           Padding(
@@ -144,7 +144,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                     thumbShape: RoundSliderThumbShape(enabledThumbRadius: 14.0),
                                     thumbColor: Colors.greenAccent,
                                     overlayColor: Colors.green.withAlpha(32),
-                                    overlayShape: RoundSliderOverlayShape(overlayRadius: 28.0),
+                                    overlayShape: RoundSliderOverlayShape(overlayRadius: 15.0),
                                     tickMarkShape: RoundSliderTickMarkShape(),
                                     activeTickMarkColor: Colors.green[700],
                                     inactiveTickMarkColor: Colors.green[100],
@@ -152,7 +152,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                     valueIndicatorColor: Colors.green[900],
                                     valueIndicatorTextStyle: TextStyle(
                                       color: Colors.white,
-                                      fontSize: 20,
+                                      fontSize: 17,
                                     ),
                                   ),
                                 child: Slider(
@@ -179,8 +179,8 @@ class _KitchenDetailState extends State<KitchenDetail> {
                           Padding(
                             padding: EdgeInsets.only(top:0, bottom: 0, right:84),
                             child: Text(
-                              _threshold.toStringAsFixed(2) + " cm",
-                              style: TextStyle(fontSize: 22.0, fontWeight: FontWeight.w900, fontFamily: 'Raleway',),
+                              _threshold.toStringAsFixed(2) + " ",
+                              style: TextStyle(fontSize: MediaQuery.of(context).size.width * 0.044, fontWeight: FontWeight.w900, fontFamily: 'Raleway',),
                             ),
                           ),
                         ],
@@ -197,7 +197,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                         style: TextStyle(
                                           color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
                                           fontWeight: FontWeight.bold,
-                                          fontSize: MediaQuery.of(context).size.width * 0.068,
+                                          fontSize: MediaQuery.of(context).size.width * 0.062,
                                         ),
                                       ),
                                     ),
@@ -231,14 +231,15 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                       style: TextStyle(
                                         color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
                                         fontWeight: FontWeight.bold,
-                                        fontSize: MediaQuery.of(context).size.width * 0.068,
+                                        fontSize: MediaQuery.of(context).size.width * 0.063,
                                       ),),
                                   ),
                                   Padding(
                                     padding: EdgeInsets.only(left:14),
+
                                     child: DropdownButton<String>(
                                         value: _selected_store,
-                                      style: TextStyle(color: Colors.black, fontSize: 26),
+                                      style: TextStyle(color: Colors.black, fontSize: 20),
                                       items: store_list.map<DropdownMenuItem<String>>((String value) {
                                         return DropdownMenuItem<String>(
                                           value: value,
@@ -250,7 +251,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                         style: TextStyle(
                                         color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
                                         fontWeight: FontWeight.bold,
-                                        fontSize: MediaQuery.of(context).size.width * 0.068,
+                                        fontSize: MediaQuery.of(context).size.width * 0.053,
                                       ),
                                       ),
 
@@ -281,7 +282,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                       style: TextStyle(
                                         color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
                                         fontWeight: FontWeight.bold,
-                                        fontSize: MediaQuery.of(context).size.width * 0.068,
+                                        fontSize: MediaQuery.of(context).size.width * 0.062,
                                       ),),
                                   ),
                                   Padding(
@@ -290,7 +291,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                       style: TextStyle(
                                         color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
                                         fontWeight: FontWeight.bold,
-                                        fontSize: MediaQuery.of(context).size.width * 0.068,
+                                        fontSize: MediaQuery.of(context).size.width * 0.066,
                                       ),),
                                   ),
                                 ]
@@ -317,7 +318,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                     padding: EdgeInsets.only(right:30),
                                     child: RaisedButton(
                                       color: AppColor.PRIMARY_ORANGE,
-                                      child: Text('SAVE', style: TextStyle(fontSize: 32),),
+                                      child: Text('SAVE', style: TextStyle(fontSize: MediaQuery.of(context).size.width * 0.068),),
                                       onPressed: () {
 
                                         //todo: push data to firebase and update!
@@ -339,7 +340,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                                     children: [
                                                       Padding(
                                                         padding: EdgeInsets.all(16.0),
-                                                        child:Text("Updated Successfully!", style: TextStyle(fontSize: 30, fontStyle: FontStyle.italic, color: AppColor.PRIMARY_GREEN),),
+                                                        child:Text("Updated Successfully!", style: TextStyle(fontSize: MediaQuery.of(context).size.width * 0.064, fontStyle: FontStyle.italic, color: AppColor.PRIMARY_GREEN),),
                                                       ),
                                                       Padding(
                                                         padding:EdgeInsets.only(top:20),
