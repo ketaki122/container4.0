@@ -1,7 +1,9 @@
 
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
+
     <img src="repo_assets/logo.PNG" alt="Logo" width="100" height="160">
     <h1 align="center">FreshFill</h1>
    <p align="center"><i>
@@ -14,6 +16,7 @@
             <br />
       </p>
     </p>
+
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -23,6 +26,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+
         <li><a href="#proposed-solution">Proposed Solution</a>
         <li><a href="#about-the-project">UN Goals</a>
         <li><a href="#built-with">Built With</a>
@@ -30,6 +34,7 @@
             <li><a href="#built-with">Hardware</a></li>
             <li><a href="#built-with">Software</a></li>
       </ul>
+
         </li>
       </ul>
     </li>
@@ -46,6 +51,7 @@
     <li><a href="#license">License</a></li>
     </ol>
 </details>
+
 
 
 <!-- ABOUT THE PROJECT -->
@@ -71,6 +77,9 @@
   <img src="repo_assets/fridge_con.PNG" width="600" height = "350" title="Fridge">
 </p>
 
+
+
+
 ## UN Goals
 <p align="center">
   <img src="repo_assets/UN_goals.PNG" width="600" height = "350" title="UN">
@@ -86,6 +95,7 @@
 <li>Load cell (6 kg)
 <li>HX711
 <li>MQ3 Alcohol Ethanol Sensor
+
 
 ### Software
 
@@ -145,14 +155,27 @@ Auto-order
  <img src="repo_assets/food_cs.png" width="250" height="500" alt="cropping screen">&nbsp; &nbsp; &nbsp; &nbsp; 
   <img src="repo_assets/foodcommunity_addPost_new.jfif" width="250" height="500" alt="output screen">
 </p>
+=======
+<p align="center">
+  <img src="repo_assets/icon_under_construction.png" width="250" height="500" title="Kitchen Inventory Screen">&nbsp; &nbsp; &nbsp; &nbsp; 
+  <!--<img src="repo_assets/kitchen_description.jpeg" width="250" height="500" alt="Container Description Screen">-->
+</p>
+&nbsp; &nbsp; 
+<!---<p align="center">
+ <img src="repo_assets/foodcommunity_main.jpeg" width="250" height="500" alt="cropping screen">&nbsp; &nbsp; &nbsp; &nbsp; 
+  <img src="repo_assets/foodcommunity_addPost.jpeg" width="250" height="500" alt="output screen">
+</p>-->
+
 
 <!-- CONTRIBUTORS -->
 # Contributors
 :smile:
 1) [Twisha Shah](https://github.com/high-functioning-sociopath)
+
 2) [Antara Borkar](https://github.com/antara201)
 3) [Ketaki Mulye](https://github.com/ketaki122)
 4) [Dipti Kawanpure](https://github.com/diptikk)
+
 
 
 <!-- LICENSE -->
@@ -165,4 +188,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 

@@ -57,7 +57,9 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
 
+
               Text("FreshFill", style: TextStyle(fontSize: 70, fontWeight: FontWeight.bold,fontFamily: "Amatic SC"),),
+
               Padding(
                 padding:EdgeInsets.only(top:5),
                 child:Lottie.network(

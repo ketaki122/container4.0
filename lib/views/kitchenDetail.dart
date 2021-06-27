@@ -179,7 +179,9 @@ class _KitchenDetailState extends State<KitchenDetail> {
                           Padding(
                             padding: EdgeInsets.only(top:0, bottom: 0, right:84),
                             child: Text(
+
                               _threshold.toStringAsFixed(2) + " ",
+
                               style: TextStyle(fontSize: MediaQuery.of(context).size.width * 0.044, fontWeight: FontWeight.w900, fontFamily: 'Raleway',),
                             ),
                           ),
@@ -232,6 +234,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                         color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
                                         fontWeight: FontWeight.bold,
                                         fontSize: MediaQuery.of(context).size.width * 0.063,
+
                                       ),),
                                   ),
                                   Padding(
@@ -252,6 +255,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                         color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
                                         fontWeight: FontWeight.bold,
                                         fontSize: MediaQuery.of(context).size.width * 0.053,
+
                                       ),
                                       ),
 
